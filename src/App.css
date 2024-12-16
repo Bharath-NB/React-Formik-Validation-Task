@@ -220,7 +220,7 @@ body {
   }
 }
 body {
-  background-image: url('src/assets/pngtree-abstract-light-colored-paint-texture-background-wallpaper-image_13802780.png'); 
+  /* background-image: url('public/bg.png');  */
   background-size: cover; 
   background-repeat: no-repeat; 
   background-position: center;
