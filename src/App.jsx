@@ -1,15 +1,12 @@
-// src/App.jsx
-import React from 'react';
-import './App.css';
+import AdminDashboard from "./components/AdminDashboard";
+import "./App.css";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <h1>Hello, World!</h1>
-      {/* Update image path */}
-      <img src="./public/bg.png" alt="Background" />
+    <div className="app-container">
+      <AdminDashboard />
     </div>
   );
-}
+};
 
 export default App;
